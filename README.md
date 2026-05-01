@@ -224,37 +224,6 @@ Score categories:
 - The adaptive question planner uses rule-based logic, not an online AI API.
 - The project is suitable for academic explanation and research-style voice behavior analysis.
 
-## Teacher Explanation
-
-This project is an AI based voice analysis system. The user first records a normal voice sample. After that, the user gives an initial statement using voice. The system converts the statement into text and generates follow-up questions based on that statement. The user answers those questions using voice. The system checks voice stress, pauses, hesitation, speaking speed, voice changes, and answer matching. Based on these checks, the system shows a lie possibility result as Low, Medium, or High. The result is only an estimate and does not prove that a person is lying.
-
-## Expected Teacher Questions and Answers
-
-### Q1. Does this project detect lies with 100% accuracy?
-
-No. The system does not claim 100% lie detection. It estimates lie possibility using voice stress signs and answer matching.
-
-### Q2. Why do we record a normal voice sample?
-
-The normal voice sample helps the system compare the user's usual speaking pattern with the answers given during the test.
-
-### Q3. What signs does the system check?
-
-The system checks voice stress, pauses, hesitation, speaking speed, voice changes, and whether the answers match properly.
-
-### Q4. Why is the result shown as Low, Medium, or High?
-
-Because voice analysis can only estimate possibility. It should not be treated as final proof.
-
-### Q5. What is the use of this project?
-
-This project can be used as a support tool for voice behavior analysis, interview practice, investigation training, and research-based presentations.
-
-### Q6. Why does the system ask adaptive questions?
-
-A fixed question set may not match every user statement. Adaptive questions make the test more relevant because the next questions are created from the user's first statement.
-
-### Q7. Why is faster-whisper used?
 
 faster-whisper converts English voice answers into text so the system can check answer matching without requiring the user to type every answer.
 
