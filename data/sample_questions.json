@@ -1,0 +1,6 @@
+{
+  "initial_statement_prompt": "Describe the situation or activity you want to answer about.",
+  "question_mode": "adaptive_follow_up",
+  "follow_up_count": 4,
+  "language": "English"
+}

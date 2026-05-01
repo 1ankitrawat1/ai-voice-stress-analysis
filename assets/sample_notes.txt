@@ -1,0 +1,13 @@
+AI Based Voice Stress Analysis System
+
+Recommended test language: English
+
+Suggested normal voice sample:
+Read a calm sentence for 10 to 20 seconds before starting the test.
+
+Suggested initial statement examples:
+- I stayed at home yesterday and studied Python.
+- I went to the market in the evening with my friend.
+- I worked on my college assignment at night.
+
+The result estimates Lie Possibility only. It does not prove that the person is lying.
